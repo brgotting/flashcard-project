@@ -1,6 +1,11 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
-    $("#walrus-showing").toggle();
-    $("#walrus-hidden").toggle();
+
+  $("#jsclick").click(function() {
+    $("#js").toggle();
   });
+
+  $("#opclick").click(function() {
+    $("#op").toggle();
+  });
+
 });
