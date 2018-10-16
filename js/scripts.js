@@ -8,4 +8,13 @@ $(document).ready(function() {
     $("#op").toggle();
   });
 
+  $("#vbclick").click(function() {
+    $("#vb").toggle();
+  });
+  $("#vbncclick").click(function() {
+    $("#vbnc").toggle();
+  });
+  $("#fnclick").click(function() {
+    $("#fn").toggle();
+  });
 });

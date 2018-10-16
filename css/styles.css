@@ -2,9 +2,9 @@
   display: none;
 }
 
-.clickable {
+.well {
   cursor: pointer;
-  color: #0088cc;
+
 }
 
 .clickable:hover {
